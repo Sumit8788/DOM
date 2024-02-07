@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TO DO List</h1>
+        <!-- Task input section -->
+        <div class="task">
+            <label for="in">What You Want to do</label>
+            <input type="text" id="in" placeholder="Enter your Task">
+            <p id="errormessage"></p> <!-- Error message container -->
+            <button id="btn">Add To List</button>
+        </div>
+        <!-- Display section for tasks -->
+        <div class="display">
+            <div class="todo">
+                <h2>Task to be completed</h2>
+                <ul id="todolist"></ul> <!-- List for tasks to be completed -->
+            </div>
+            <div class="completed">
+                <h2>Completed Task</h2>
+                <ul id="completedlist"></ul> <!-- List for completed tasks -->
+            </div>
+        </div>
+        <!-- Reset button section -->
+        <div class="resetcontainer">
+            <button id="resetbtn">Reset</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

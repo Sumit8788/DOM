@@ -1,0 +1,125 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting background color for the body */
+body {
+    background-color: antiquewhite;
+}
+
+/* Styling for the main container */
+.container {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+/* Styling for task input section */
+.task {
+    height: 25vh;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Common styling for labels and headings */
+.task label, .todo h2, .completed h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Styling for task input */
+.task input {
+    height: 5vh;
+    width: 50vw;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Styling for the add button */
+.task button {
+    height: 50px;
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(68, 68, 248);
+    cursor: pointer;
+}
+
+/* Hover effect for the add button */
+.task button:hover {
+    color: rgb(68, 68, 248);
+    background-color: white;
+}
+
+/* Styling for the display section */
+.display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Styling for the todo and completed sections */
+.display .todo, .display .completed {
+    width: 50vw;
+}
+
+/* Styling for todo and completed headings */
+.todo h2, .completed h2 {
+    margin-left: 10px;
+}
+
+/* Styling for list items */
+.list_item {
+    margin-left: 40px;
+    width: 40vw;
+    overflow-wrap: break-word; /* Wrap long words */
+    padding: 5px;
+}
+
+/* Styling for checkboxes */
+.check_box {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Styling for the reset button container */
+.resetcontainer {
+    margin-top: 20px;
+    display: flex;
+}
+
+/* Styling for the reset button */
+#resetbtn {
+    height: 50px;
+    width: 70px;
+    margin: auto;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(68, 68, 248);
+    cursor: pointer;
+}
+
+/* Hover effect for the reset button */
+#resetbtn:hover {
+    color: rgb(68, 68, 248);
+    background-color: white;
+}
